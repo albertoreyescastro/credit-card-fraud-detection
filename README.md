@@ -270,7 +270,7 @@ Physics Graduate · MSc Artificial Intelligence Student
 
 - **GitHub:** https://github.com/albertoreyescastro
 - **Kaggle:** https://www.kaggle.com/albertoreyescastro20
-- **LinkedIn:** https://www.linkedin.com/in/alberto-reyes-ba5546238/
+- **LinkedIn:** https://www.linkedin.com/in/albertoreyescastro/
 
 ---
 
