@@ -1,0 +1,100 @@
+{
+  "project": "Credit Card Fraud Detection",
+  "academic_project_completed": "2026-05",
+  "original_academic_mark": 85,
+  "benchmark_training_date": "2026-11-24",
+  "reporting_replay_date": "2026-11-26",
+  "raw_rows": 284807,
+  "raw_fraud": 492,
+  "exact_duplicates_removed": 1081,
+  "deduplicated_rows": 283726,
+  "deduplicated_fraud": 473,
+  "development_rows": 227030,
+  "development_fraud": 378,
+  "fixed_xgboost": {
+    "n_estimators": 400,
+    "max_depth": 6,
+    "learning_rate": 0.08,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85
+  },
+  "nested_cv": {
+    "candidates": 8,
+    "outer_folds": 3,
+    "inner_folds": 3,
+    "mean_outer_ap": 0.84436,
+    "std_outer_ap": 0.014998
+  },
+  "retrospective_holdout": {
+    "rows": 56696,
+    "fraud": 95,
+    "threshold": 0.0827832967042923,
+    "tn": 56591,
+    "fp": 10,
+    "fn": 16,
+    "tp": 79,
+    "ap": 0.862204,
+    "roc_auc": 0.978001,
+    "precision": 0.88764,
+    "recall": 0.831579,
+    "f1": 0.858696,
+    "f2": 0.842217,
+    "brier": 0.000406,
+    "conditional_group_bootstrap_draws": 2000,
+    "conditional_95pct_intervals": {
+      "ap": [
+        0.79118,
+        0.926337
+      ],
+      "roc_auc": [
+        0.956279,
+        0.994347
+      ],
+      "precision": [
+        0.816321,
+        0.948992
+      ],
+      "recall": [
+        0.754861,
+        0.905936
+      ],
+      "f1": [
+        0.8,
+        0.909112
+      ],
+      "f2": [
+        0.773088,
+        0.903475
+      ]
+    }
+  },
+  "chronological_restricted": {
+    "rows": 55026,
+    "fraud": 74,
+    "threshold": 0.4158305525779724,
+    "tn": 54948,
+    "fp": 4,
+    "fn": 19,
+    "tp": 55,
+    "ap": 0.79607,
+    "roc_auc": 0.983969,
+    "precision": 0.932203,
+    "recall": 0.743243,
+    "f2": 0.774648
+  },
+  "chronological_full": {
+    "rows": 56746,
+    "fraud": 74,
+    "ap": 0.796045,
+    "roc_auc": 0.984098,
+    "precision": 0.932203,
+    "recall": 0.743243,
+    "f2": 0.774648
+  },
+  "verification": {
+    "historical_work_units": 57,
+    "strict_inference_checks": 20,
+    "model_retraining_during_replay": false,
+    "fresh_training_certified": false
+  }
+}
