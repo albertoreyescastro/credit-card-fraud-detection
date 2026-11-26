@@ -4,7 +4,7 @@
 
 **Statistical modelling · Risk analytics · Imbalanced classification**
 
-This project was developed as part of my MSc in **Artificial Intelligence Technology with Advanced Practice at Northumbria University London**, completed in May 2026 with an original academic mark of **85/100 (Distinction)**. This independently revised portfolio edition of the collaborative project includes subsequent methodological and reproducibility refinements. The original mark applies to the academic submission.
+This project was developed as part of my MSc in **Artificial Intelligence Technology with Advanced Practice at Northumbria University London**, completed in May 2026 with an original academic mark of **85/100 (Distinction)**. This portfolio edition includes sanitisation and technical updates. The original mark applies to the academic submission.
 
 [Executed analysis notebook](notebooks/credit_card_fraud_detection.ipynb) · [Technical report (PDF)](reports/credit-card-fraud-detection-report.pdf) · [Machine-readable results](results.json) · [Public dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
@@ -86,4 +86,4 @@ Alberto Reyes Castro · Physics graduate · MSc Artificial Intelligence Technolo
 
 [Portfolio](https://albertoreyescastro.github.io) · [GitHub](https://github.com/albertoreyescastro) · [LinkedIn](https://www.linkedin.com/in/albertoreyescastro/)
 
-Acknowledgements: the original collaborative MSc project, Northumbria University London, the ULB Machine Learning Group and Kaggle. The repository does not redistribute the source dataset or claim deployment within a financial institution.
+Acknowledgements: Northumbria University London, the ULB Machine Learning Group and Kaggle. The repository does not redistribute the source dataset or claim deployment within a financial institution.
